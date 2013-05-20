@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0868176174AB3B9009BCF58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868175174AB3B9009BCF58 /* UIKit.framework */; };
+		C0868178174AB3B9009BCF58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868177174AB3B9009BCF58 /* Foundation.framework */; };
+		C086817A174AB3B9009BCF58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868179174AB3B9009BCF58 /* CoreGraphics.framework */; };
+		C0868180174AB3B9009BCF58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C086817E174AB3B9009BCF58 /* InfoPlist.strings */; };
+		C0868182174AB3B9009BCF58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0868181174AB3B9009BCF58 /* main.m */; };
+		C0868186174AB3B9009BCF58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0868185174AB3B9009BCF58 /* AppDelegate.m */; };
+		C0868188174AB3BA009BCF58 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0868187174AB3BA009BCF58 /* Default.png */; };
+		C086818A174AB3BA009BCF58 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0868189174AB3BA009BCF58 /* Default@2x.png */; };
+		C086818C174AB3BA009BCF58 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C086818B174AB3BA009BCF58 /* Default-568h@2x.png */; };
+		C086818F174AB3BA009BCF58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C086818E174AB3BA009BCF58 /* ViewController.m */; };
+		C0868192174AB3BA009BCF58 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0868190174AB3BA009BCF58 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0868171174AB3B9009BCF58 /* ReversePolishNotationCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReversePolishNotationCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0868175174AB3B9009BCF58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0868177174AB3B9009BCF58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0868179174AB3B9009BCF58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C086817D174AB3B9009BCF58 /* ReversePolishNotationCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReversePolishNotationCalculator-Info.plist"; sourceTree = "<group>"; };
+		C086817F174AB3B9009BCF58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0868181174AB3B9009BCF58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0868183174AB3B9009BCF58 /* ReversePolishNotationCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReversePolishNotationCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		C0868184174AB3B9009BCF58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0868185174AB3B9009BCF58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0868187174AB3BA009BCF58 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C0868189174AB3BA009BCF58 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C086818B174AB3BA009BCF58 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C086818D174AB3BA009BCF58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C086818E174AB3BA009BCF58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0868191174AB3BA009BCF58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C086816E174AB3B9009BCF58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0868176174AB3B9009BCF58 /* UIKit.framework in Frameworks */,
+				C0868178174AB3B9009BCF58 /* Foundation.framework in Frameworks */,
+				C086817A174AB3B9009BCF58 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0868166174AB3B9009BCF58 = {
+			isa = PBXGroup;
+			children = (
+				C086817B174AB3B9009BCF58 /* ReversePolishNotationCalculator */,
+				C0868174174AB3B9009BCF58 /* Frameworks */,
+				C0868172174AB3B9009BCF58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0868172174AB3B9009BCF58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0868171174AB3B9009BCF58 /* ReversePolishNotationCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0868174174AB3B9009BCF58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0868175174AB3B9009BCF58 /* UIKit.framework */,
+				C0868177174AB3B9009BCF58 /* Foundation.framework */,
+				C0868179174AB3B9009BCF58 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C086817B174AB3B9009BCF58 /* ReversePolishNotationCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				C0868184174AB3B9009BCF58 /* AppDelegate.h */,
+				C0868185174AB3B9009BCF58 /* AppDelegate.m */,
+				C086818D174AB3BA009BCF58 /* ViewController.h */,
+				C086818E174AB3BA009BCF58 /* ViewController.m */,
+				C0868190174AB3BA009BCF58 /* ViewController.xib */,
+				C086817C174AB3B9009BCF58 /* Supporting Files */,
+			);
+			path = ReversePolishNotationCalculator;
+			sourceTree = "<group>";
+		};
+		C086817C174AB3B9009BCF58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C086817D174AB3B9009BCF58 /* ReversePolishNotationCalculator-Info.plist */,
+				C086817E174AB3B9009BCF58 /* InfoPlist.strings */,
+				C0868181174AB3B9009BCF58 /* main.m */,
+				C0868183174AB3B9009BCF58 /* ReversePolishNotationCalculator-Prefix.pch */,
+				C0868187174AB3BA009BCF58 /* Default.png */,
+				C0868189174AB3BA009BCF58 /* Default@2x.png */,
+				C086818B174AB3BA009BCF58 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0868170174AB3B9009BCF58 /* ReversePolishNotationCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0868195174AB3BA009BCF58 /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculator" */;
+			buildPhases = (
+				C086816D174AB3B9009BCF58 /* Sources */,
+				C086816E174AB3B9009BCF58 /* Frameworks */,
+				C086816F174AB3B9009BCF58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReversePolishNotationCalculator;
+			productName = ReversePolishNotationCalculator;
+			productReference = C0868171174AB3B9009BCF58 /* ReversePolishNotationCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0868168174AB3B9009BCF58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jesus Morales";
+			};
+			buildConfigurationList = C086816B174AB3B9009BCF58 /* Build configuration list for PBXProject "ReversePolishNotationCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0868166174AB3B9009BCF58;
+			productRefGroup = C0868172174AB3B9009BCF58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0868170174AB3B9009BCF58 /* ReversePolishNotationCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C086816F174AB3B9009BCF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0868180174AB3B9009BCF58 /* InfoPlist.strings in Resources */,
+				C0868188174AB3BA009BCF58 /* Default.png in Resources */,
+				C086818A174AB3BA009BCF58 /* Default@2x.png in Resources */,
+				C086818C174AB3BA009BCF58 /* Default-568h@2x.png in Resources */,
+				C0868192174AB3BA009BCF58 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C086816D174AB3B9009BCF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0868182174AB3B9009BCF58 /* main.m in Sources */,
+				C0868186174AB3B9009BCF58 /* AppDelegate.m in Sources */,
+				C086818F174AB3BA009BCF58 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C086817E174AB3B9009BCF58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C086817F174AB3B9009BCF58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0868190174AB3BA009BCF58 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0868191174AB3BA009BCF58 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0868193174AB3BA009BCF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0868194174AB3BA009BCF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0868196174AB3BA009BCF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0868197174AB3BA009BCF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C086816B174AB3B9009BCF58 /* Build configuration list for PBXProject "ReversePolishNotationCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0868193174AB3BA009BCF58 /* Debug */,
+				C0868194174AB3BA009BCF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0868195174AB3BA009BCF58 /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0868196174AB3BA009BCF58 /* Debug */,
+				C0868197174AB3BA009BCF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0868168174AB3B9009BCF58 /* Project object */;
+}
