@@ -16,8 +16,20 @@
 		C0868188174AB3BA009BCF58 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0868187174AB3BA009BCF58 /* Default.png */; };
 		C086818A174AB3BA009BCF58 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0868189174AB3BA009BCF58 /* Default@2x.png */; };
 		C086818C174AB3BA009BCF58 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C086818B174AB3BA009BCF58 /* Default-568h@2x.png */; };
-		C086818F174AB3BA009BCF58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C086818E174AB3BA009BCF58 /* ViewController.m */; };
-		C0868192174AB3BA009BCF58 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0868190174AB3BA009BCF58 /* ViewController.xib */; };
+		C08681BC174AB4ED009BCF58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868175174AB3B9009BCF58 /* UIKit.framework */; };
+		C08681BD174AB4ED009BCF58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868177174AB3B9009BCF58 /* Foundation.framework */; };
+		C08681BE174AB4ED009BCF58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868179174AB3B9009BCF58 /* CoreGraphics.framework */; };
+		C08681C4174AB4ED009BCF58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C08681C2174AB4ED009BCF58 /* InfoPlist.strings */; };
+		C08681C6174AB4ED009BCF58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C08681C5174AB4ED009BCF58 /* main.m */; };
+		C08681CC174AB4ED009BCF58 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C08681CB174AB4ED009BCF58 /* Default.png */; };
+		C08681CE174AB4ED009BCF58 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C08681CD174AB4ED009BCF58 /* Default@2x.png */; };
+		C08681D0174AB4ED009BCF58 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C08681CF174AB4ED009BCF58 /* Default-568h@2x.png */; };
+		C08681D5174AB508009BCF58 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08681D4174AB508009BCF58 /* GHUnitIOS.framework */; };
+		C08681D7174AB5C8009BCF58 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08681D6174AB5C8009BCF58 /* QuartzCore.framework */; };
+		C08681D9174AB69E009BCF58 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C08681D8174AB69E009BCF58 /* libOCMock.a */; };
+		C08681DC174AB73A009BCF58 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C08681DB174AB73A009BCF58 /* Calculator.m */; };
+		C08681DD174AB73A009BCF58 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C08681DB174AB73A009BCF58 /* Calculator.m */; };
+		C08681E0174AB75D009BCF58 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C08681DF174AB75D009BCF58 /* CalculatorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +46,20 @@
 		C0868187174AB3BA009BCF58 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C0868189174AB3BA009BCF58 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C086818B174AB3BA009BCF58 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C086818D174AB3BA009BCF58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C086818E174AB3BA009BCF58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C0868191174AB3BA009BCF58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C08681BA174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReversePolishNotationCalculatorTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08681C1174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReversePolishNotationCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		C08681C3174AB4ED009BCF58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C08681C5174AB4ED009BCF58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C08681C7174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReversePolishNotationCalculatorTests-Prefix.pch"; sourceTree = "<group>"; };
+		C08681CB174AB4ED009BCF58 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C08681CD174AB4ED009BCF58 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C08681CF174AB4ED009BCF58 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C08681D4174AB508009BCF58 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		C08681D6174AB5C8009BCF58 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C08681D8174AB69E009BCF58 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = usr/lib/libOCMock.a; sourceTree = "<group>"; };
+		C08681DA174AB73A009BCF58 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		C08681DB174AB73A009BCF58 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		C08681DF174AB75D009BCF58 /* CalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,13 +73,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C08681B7174AB4ED009BCF58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08681D9174AB69E009BCF58 /* libOCMock.a in Frameworks */,
+				C08681D7174AB5C8009BCF58 /* QuartzCore.framework in Frameworks */,
+				C08681BC174AB4ED009BCF58 /* UIKit.framework in Frameworks */,
+				C08681BD174AB4ED009BCF58 /* Foundation.framework in Frameworks */,
+				C08681BE174AB4ED009BCF58 /* CoreGraphics.framework in Frameworks */,
+				C08681D5174AB508009BCF58 /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C0868166174AB3B9009BCF58 = {
 			isa = PBXGroup;
 			children = (
+				C08681D8174AB69E009BCF58 /* libOCMock.a */,
 				C086817B174AB3B9009BCF58 /* ReversePolishNotationCalculator */,
+				C08681BF174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests */,
 				C0868174174AB3B9009BCF58 /* Frameworks */,
 				C0868172174AB3B9009BCF58 /* Products */,
 			);
@@ -66,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				C0868171174AB3B9009BCF58 /* ReversePolishNotationCalculator.app */,
+				C08681BA174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +112,8 @@
 		C0868174174AB3B9009BCF58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C08681D6174AB5C8009BCF58 /* QuartzCore.framework */,
+				C08681D4174AB508009BCF58 /* GHUnitIOS.framework */,
 				C0868175174AB3B9009BCF58 /* UIKit.framework */,
 				C0868177174AB3B9009BCF58 /* Foundation.framework */,
 				C0868179174AB3B9009BCF58 /* CoreGraphics.framework */,
@@ -85,10 +126,9 @@
 			children = (
 				C0868184174AB3B9009BCF58 /* AppDelegate.h */,
 				C0868185174AB3B9009BCF58 /* AppDelegate.m */,
-				C086818D174AB3BA009BCF58 /* ViewController.h */,
-				C086818E174AB3BA009BCF58 /* ViewController.m */,
-				C0868190174AB3BA009BCF58 /* ViewController.xib */,
 				C086817C174AB3B9009BCF58 /* Supporting Files */,
+				C08681DA174AB73A009BCF58 /* Calculator.h */,
+				C08681DB174AB73A009BCF58 /* Calculator.m */,
 			);
 			path = ReversePolishNotationCalculator;
 			sourceTree = "<group>";
@@ -103,6 +143,29 @@
 				C0868187174AB3BA009BCF58 /* Default.png */,
 				C0868189174AB3BA009BCF58 /* Default@2x.png */,
 				C086818B174AB3BA009BCF58 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C08681BF174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C08681C0174AB4ED009BCF58 /* Supporting Files */,
+				C08681DF174AB75D009BCF58 /* CalculatorTests.m */,
+			);
+			path = ReversePolishNotationCalculatorTests;
+			sourceTree = "<group>";
+		};
+		C08681C0174AB4ED009BCF58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C08681C1174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests-Info.plist */,
+				C08681C2174AB4ED009BCF58 /* InfoPlist.strings */,
+				C08681C5174AB4ED009BCF58 /* main.m */,
+				C08681C7174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests-Prefix.pch */,
+				C08681CB174AB4ED009BCF58 /* Default.png */,
+				C08681CD174AB4ED009BCF58 /* Default@2x.png */,
+				C08681CF174AB4ED009BCF58 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,6 +190,23 @@
 			productReference = C0868171174AB3B9009BCF58 /* ReversePolishNotationCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C08681B9174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08681D1174AB4ED009BCF58 /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculatorTests" */;
+			buildPhases = (
+				C08681B6174AB4ED009BCF58 /* Sources */,
+				C08681B7174AB4ED009BCF58 /* Frameworks */,
+				C08681B8174AB4ED009BCF58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReversePolishNotationCalculatorTests;
+			productName = ReversePolishNotationCalculatorTests;
+			productReference = C08681BA174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +229,7 @@
 			projectRoot = "";
 			targets = (
 				C0868170174AB3B9009BCF58 /* ReversePolishNotationCalculator */,
+				C08681B9174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -162,7 +243,17 @@
 				C0868188174AB3BA009BCF58 /* Default.png in Resources */,
 				C086818A174AB3BA009BCF58 /* Default@2x.png in Resources */,
 				C086818C174AB3BA009BCF58 /* Default-568h@2x.png in Resources */,
-				C0868192174AB3BA009BCF58 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08681B8174AB4ED009BCF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08681C4174AB4ED009BCF58 /* InfoPlist.strings in Resources */,
+				C08681CC174AB4ED009BCF58 /* Default.png in Resources */,
+				C08681CE174AB4ED009BCF58 /* Default@2x.png in Resources */,
+				C08681D0174AB4ED009BCF58 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +266,17 @@
 			files = (
 				C0868182174AB3B9009BCF58 /* main.m in Sources */,
 				C0868186174AB3B9009BCF58 /* AppDelegate.m in Sources */,
-				C086818F174AB3BA009BCF58 /* ViewController.m in Sources */,
+				C08681DC174AB73A009BCF58 /* Calculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08681B6174AB4ED009BCF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08681C6174AB4ED009BCF58 /* main.m in Sources */,
+				C08681DD174AB73A009BCF58 /* Calculator.m in Sources */,
+				C08681E0174AB75D009BCF58 /* CalculatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,12 +291,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C0868190174AB3BA009BCF58 /* ViewController.xib */ = {
+		C08681C2174AB4ED009BCF58 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C0868191174AB3BA009BCF58 /* en */,
+				C08681C3174AB4ED009BCF58 /* en */,
 			);
-			name = ViewController.xib;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -273,6 +374,56 @@
 			};
 			name = Release;
 		};
+		C08681D2174AB4ED009BCF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePolishNotationCalculatorTests/ReversePolishNotationCalculatorTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/usr/include";
+				INFOPLIST_FILE = "ReversePolishNotationCalculatorTests/ReversePolishNotationCalculatorTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/usr/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C08681D3174AB4ED009BCF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePolishNotationCalculatorTests/ReversePolishNotationCalculatorTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/usr/include";
+				INFOPLIST_FILE = "ReversePolishNotationCalculatorTests/ReversePolishNotationCalculatorTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/usr/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -290,6 +441,14 @@
 			buildConfigurations = (
 				C0868196174AB3BA009BCF58 /* Debug */,
 				C0868197174AB3BA009BCF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C08681D1174AB4ED009BCF58 /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08681D2174AB4ED009BCF58 /* Debug */,
+				C08681D3174AB4ED009BCF58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
