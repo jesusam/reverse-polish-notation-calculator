@@ -8,6 +8,8 @@
 
 #import "CalculatorView.h"
 
+#define thumbSpace 20
+
 @implementation CalculatorView
 
 @synthesize zeroButton = _zeroButton;
