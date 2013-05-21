@@ -8,7 +8,9 @@
 
 #import "CalculatorView.h"
 
-#define thumbSpace 20
+#define THUMB_SPACE 20
+#define BUTTON_WIDTH 55
+#define BUTTON_HEIGHT 55
 
 @implementation CalculatorView
 
@@ -34,22 +36,70 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        UIFont *systemLabelFont = [UIFont fontWithName:@"System" size:[UIFont labelFontSize]];
-        CGSize labelSizeWithTesterString = [@"TesterString" sizeWithFont:systemLabelFont];
-        CGRect displayFrame = CGRectMake(thumbSpace,
-                                            thumbSpace,
-                                            frame.size.width - 2 * thumbSpace,
-                                            labelSizeWithTesterString.height);
-        [self setDisplay:[[UILabel alloc] initWithFrame:displayFrame]];
+        [self setBackgroundColor:[UIColor whiteColor]];
         
+        self.nineButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        CGRect nineButtonFrame = CGRectMake(3 * THUMB_SPACE + 2 * BUTTON_WIDTH,
+                                            self.display.frame.size.height + THUMB_SPACE,
+                                            BUTTON_WIDTH,
+                                            BUTTON_HEIGHT);
+        [self.nineButton setFrame:nineButtonFrame];
+        [self.nineButton setTitle:@"9" forState:UIControlStateNormal];
+        [self addSubview:self.nineButton];
         
+        self.sixButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        CGRect sixButtonFrame = CGRectMake(3 * THUMB_SPACE + 2 * BUTTON_WIDTH,
+                                            self.display.frame.size.height + 2 * THUMB_SPACE + BUTTON_HEIGHT,
+                                            BUTTON_WIDTH,
+                                            BUTTON_HEIGHT);
+        [self.sixButton setFrame:sixButtonFrame];
+        [self.sixButton setTitle:@"6" forState:UIControlStateNormal];
+        [self addSubview:self.sixButton];
         
-        self.sevenButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-        [self.sevenButton setFrame:CGRectMake(20.0, 80.0, 280.0, 40.0)];
-        [self.sevenButton setTitle:@"7" forState:UIControlStateNormal];
-        [self addSubview:self.sevenButton];
+        self.threeButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        CGRect threeButtonFrame = CGRectMake(3 * THUMB_SPACE + 2 * BUTTON_WIDTH,
+                                           self.display.frame.size.height + 3 * THUMB_SPACE + 2 * BUTTON_HEIGHT,
+                                           BUTTON_WIDTH,
+                                           BUTTON_HEIGHT);
+        [self.threeButton setFrame:threeButtonFrame];
+        [self.threeButton setTitle:@"3" forState:UIControlStateNormal];
+        [self addSubview:self.threeButton];
         
+        self.addButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        CGRect addButtonFrame = CGRectMake(4 * THUMB_SPACE + 3 * BUTTON_WIDTH,
+                                           self.display.frame.size.height + THUMB_SPACE,
+                                           BUTTON_WIDTH,
+                                           BUTTON_HEIGHT);
+        [self.addButton setFrame:addButtonFrame];
+        [self.addButton setTitle:@"+" forState:UIControlStateNormal];
+        [self addSubview:self.addButton];
         
+        self.minusButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        CGRect minusButtonFrame = CGRectMake(4 * THUMB_SPACE + 3 * BUTTON_WIDTH,
+                                           self.display.frame.size.height + 2 * THUMB_SPACE + BUTTON_HEIGHT,
+                                           BUTTON_WIDTH,
+                                           BUTTON_HEIGHT);
+        [self.minusButton setFrame:minusButtonFrame];
+        [self.minusButton setTitle:@"-" forState:UIControlStateNormal];
+        [self addSubview:self.minusButton];
+        
+        self.multiplyButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        CGRect multiplyButtonFrame = CGRectMake(4 * THUMB_SPACE + 3 * BUTTON_WIDTH,
+                                           self.display.frame.size.height + 3 * THUMB_SPACE + 2 * BUTTON_HEIGHT,
+                                           BUTTON_WIDTH,
+                                           BUTTON_HEIGHT);
+        [self.multiplyButton setFrame:multiplyButtonFrame];
+        [self.multiplyButton setTitle:@"*" forState:UIControlStateNormal];
+        [self addSubview:self.multiplyButton];
+        
+        self.divideButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        CGRect divideButtonFrame = CGRectMake(4 * THUMB_SPACE + 3 * BUTTON_WIDTH,
+                                           self.display.frame.size.height + 4 * THUMB_SPACE + 3 * BUTTON_HEIGHT,
+                                           BUTTON_WIDTH,
+                                           BUTTON_HEIGHT);
+        [self.divideButton setFrame:divideButtonFrame];
+        [self.divideButton setTitle:@"/" forState:UIControlStateNormal];
+        [self addSubview:self.divideButton];
     }
     return self;
 }
