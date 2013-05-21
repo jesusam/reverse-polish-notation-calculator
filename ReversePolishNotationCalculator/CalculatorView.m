@@ -33,6 +33,14 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        // Initialization code
+        UIFont *systemLabelFont = [UIFont fontWithName:@"System" size:[UIFont labelFontSize]];
+        CGSize labelSizeWithTesterString = [@"TesterString" sizeWithFont:systemLabelFont];
+        CGRect displayFrame = CGRectMake(thumbSpace,
+                                            thumbSpace,
+                                            frame.size.width - 2 * thumbSpace,
+                                            labelSizeWithTesterString.height);
+        [self setDisplay:[[UILabel alloc] initWithFrame:displayFrame]];
         
         
         
