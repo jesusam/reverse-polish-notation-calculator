@@ -34,6 +34,8 @@
 		C08681DC174AB73A009BCF58 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C08681DB174AB73A009BCF58 /* Calculator.m */; };
 		C08681DD174AB73A009BCF58 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C08681DB174AB73A009BCF58 /* Calculator.m */; };
 		C08681E0174AB75D009BCF58 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C08681DF174AB75D009BCF58 /* CalculatorTests.m */; };
+		C0D9F43C174BE91500C45D32 /* CalculatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D9F43B174BE91500C45D32 /* CalculatorView.m */; };
+		C0D9F43D174BE91500C45D32 /* CalculatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D9F43B174BE91500C45D32 /* CalculatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		C08681DA174AB73A009BCF58 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		C08681DB174AB73A009BCF58 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		C08681DF174AB75D009BCF58 /* CalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		C0D9F43A174BE91500C45D32 /* CalculatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorView.h; sourceTree = "<group>"; };
+		C0D9F43B174BE91500C45D32 /* CalculatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +187,8 @@
 				C08681DB174AB73A009BCF58 /* Calculator.m */,
 				57F9D82C174BCD49007ACC5B /* CalculatorViewController.h */,
 				57F9D82D174BCD49007ACC5B /* CalculatorViewController.m */,
+				C0D9F43A174BE91500C45D32 /* CalculatorView.h */,
+				C0D9F43B174BE91500C45D32 /* CalculatorView.m */,
 			);
 			path = ReversePolishNotationCalculator;
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 				C0868186174AB3B9009BCF58 /* AppDelegate.m in Sources */,
 				C08681DC174AB73A009BCF58 /* Calculator.m in Sources */,
 				57F9D82E174BCD49007ACC5B /* CalculatorViewController.m in Sources */,
+				C0D9F43C174BE91500C45D32 /* CalculatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +342,7 @@
 				C08681E0174AB75D009BCF58 /* CalculatorTests.m in Sources */,
 				57F9D82B174BCD0F007ACC5B /* CalculatorViewControllerTests.m in Sources */,
 				57F9D82F174BCD49007ACC5B /* CalculatorViewController.m in Sources */,
+				C0D9F43D174BE91500C45D32 /* CalculatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

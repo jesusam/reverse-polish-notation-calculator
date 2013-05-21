@@ -7,18 +7,22 @@
 //
 
 #import "CalculatorViewController.h"
+#import "CalculatorView.h"
 
 @interface CalculatorViewController ()
+
+@property (strong, nonatomic)CalculatorView *view;
 
 @end
 
 @implementation CalculatorViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)init
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super init];
     if (self) {
         // Custom initialization
+        [self setView:[[CalculatorView alloc] init]];
     }
     return self;
 }
