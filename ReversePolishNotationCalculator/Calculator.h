@@ -12,7 +12,7 @@
 
 @property (strong, nonatomic) NSMutableArray *stack;
 
-- (void)addNumberToStack:(NSString *)number;
+- (void)pushNumberOnStack:(NSString *)number;
 - (NSString *)popNumberOffStack;
 
 @end

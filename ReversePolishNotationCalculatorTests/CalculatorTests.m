@@ -21,8 +21,8 @@
 - (void)setUp
 {
     [self setCalculator:[[Calculator alloc] init]];
-    [self.calculator addNumberToStack:@"42"];
-    [self.calculator addNumberToStack:@"45"];
+    [self.calculator pushNumberOnStack:@"42"];
+    [self.calculator pushNumberOnStack:@"45"];
 }
 
 - (void)tearDown
@@ -50,7 +50,7 @@
 - (void)testAddNumberToStack
 {
     self.calculator = [[Calculator alloc] init];
-    [self.calculator addNumberToStack:@"42"];
+    [self.calculator pushNumberOnStack:@"42"];
     GHAssertTrue([self.calculator.stack count] == 1, @"Adding one object to an empty stack should result in a stack of one object");
 }
 

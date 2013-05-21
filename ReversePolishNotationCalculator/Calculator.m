@@ -21,7 +21,7 @@
     return self;
 }
 
-- (void)addNumberToStack:(NSString *)number
+- (void)pushNumberOnStack:(NSString *)number
 {
     [self.stack addObject:number];
 }
