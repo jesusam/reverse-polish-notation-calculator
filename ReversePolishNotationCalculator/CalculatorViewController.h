@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CalculatorView.h"
 
 @interface CalculatorViewController : UIViewController
+
+@property (strong, nonatomic)CalculatorView *view;
+
+- (void)digitPressed:(id)sender;
 
 @end

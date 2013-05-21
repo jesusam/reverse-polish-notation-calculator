@@ -11,11 +11,12 @@
 
 @interface CalculatorViewController ()
 
-@property (strong, nonatomic)CalculatorView *view;
 
 @end
 
 @implementation CalculatorViewController
+
+@synthesize view;
 
 - (id)init
 {
@@ -23,6 +24,7 @@
     if (self) {
         // Custom initialization
         [self setView:[[CalculatorView alloc] init]];
+        [self.view.oneButton addTarget:self action:@selector(digitPressed:) forControlEvents:UIControlEventTouchUpInside];
     }
     return self;
 }
@@ -37,6 +39,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)digitPressed:(id)sender
+{
+    [self.view.display setText:[(UIButton *)sender currentTitle]];
 }
 
 @end
