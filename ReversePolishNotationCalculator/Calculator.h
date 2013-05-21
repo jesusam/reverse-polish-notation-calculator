@@ -13,5 +13,6 @@
 @property (strong, nonatomic) NSMutableArray *stack;
 
 - (void)addNumberToStack:(NSString *)number;
+- (NSString *)popNumberOffStack;
 
 @end

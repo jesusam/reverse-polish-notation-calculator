@@ -26,4 +26,9 @@
     [self.stack addObject:number];
 }
 
+- (NSString *)popNumberOffStack
+{
+    return [NSString string];
+}
+
 @end

@@ -65,4 +65,9 @@
     GHAssertEqualStrings([self.calculator.stack lastObject], @"45", @"The last number we add should be the last number on the stack");
 }
 
+- (void)testPopNumberOffOfStackReturnsMostRecentAddition
+{
+    GHAssertEqualStrings([self.calculator popNumberOffStack], @"45", @"The first number of the stack should be the most recently pushed");
+}
+
 @end
