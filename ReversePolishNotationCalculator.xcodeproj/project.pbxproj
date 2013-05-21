@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		57F68812174B9DE2009DA06B /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08681D4174AB508009BCF58 /* GHUnitIOS.framework */; };
 		57F68823174B9F47009DA06B /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F68821174B9F31009DA06B /* libOCMock.a */; };
+		57F9D82B174BCD0F007ACC5B /* CalculatorViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F9D82A174BCD0F007ACC5B /* CalculatorViewControllerTests.m */; };
+		57F9D82E174BCD49007ACC5B /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F9D82D174BCD49007ACC5B /* CalculatorViewController.m */; };
+		57F9D82F174BCD49007ACC5B /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F9D82D174BCD49007ACC5B /* CalculatorViewController.m */; };
 		C0868176174AB3B9009BCF58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868175174AB3B9009BCF58 /* UIKit.framework */; };
 		C0868178174AB3B9009BCF58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868177174AB3B9009BCF58 /* Foundation.framework */; };
 		C086817A174AB3B9009BCF58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868179174AB3B9009BCF58 /* CoreGraphics.framework */; };
@@ -41,6 +44,9 @@
 		57F6881E174B9F31009DA06B /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		57F6881F174B9F31009DA06B /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		57F68821174B9F31009DA06B /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		57F9D82A174BCD0F007ACC5B /* CalculatorViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewControllerTests.m; sourceTree = "<group>"; };
+		57F9D82C174BCD49007ACC5B /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		57F9D82D174BCD49007ACC5B /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		C0868171174AB3B9009BCF58 /* ReversePolishNotationCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReversePolishNotationCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0868175174AB3B9009BCF58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0868177174AB3B9009BCF58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -175,6 +181,8 @@
 				C086817C174AB3B9009BCF58 /* Supporting Files */,
 				C08681DA174AB73A009BCF58 /* Calculator.h */,
 				C08681DB174AB73A009BCF58 /* Calculator.m */,
+				57F9D82C174BCD49007ACC5B /* CalculatorViewController.h */,
+				57F9D82D174BCD49007ACC5B /* CalculatorViewController.m */,
 			);
 			path = ReversePolishNotationCalculator;
 			sourceTree = "<group>";
@@ -198,6 +206,7 @@
 			children = (
 				C08681C0174AB4ED009BCF58 /* Supporting Files */,
 				C08681DF174AB75D009BCF58 /* CalculatorTests.m */,
+				57F9D82A174BCD0F007ACC5B /* CalculatorViewControllerTests.m */,
 			);
 			path = ReversePolishNotationCalculatorTests;
 			sourceTree = "<group>";
@@ -313,6 +322,7 @@
 				C0868182174AB3B9009BCF58 /* main.m in Sources */,
 				C0868186174AB3B9009BCF58 /* AppDelegate.m in Sources */,
 				C08681DC174AB73A009BCF58 /* Calculator.m in Sources */,
+				57F9D82E174BCD49007ACC5B /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +333,8 @@
 				C08681C6174AB4ED009BCF58 /* main.m in Sources */,
 				C08681DD174AB73A009BCF58 /* Calculator.m in Sources */,
 				C08681E0174AB75D009BCF58 /* CalculatorTests.m in Sources */,
+				57F9D82B174BCD0F007ACC5B /* CalculatorViewControllerTests.m in Sources */,
+				57F9D82F174BCD49007ACC5B /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
