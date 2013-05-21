@@ -31,7 +31,15 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        
+        
+        
+        self.sevenButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        [self.sevenButton setFrame:CGRectMake(20.0, 80.0, 280.0, 40.0)];
+        [self.sevenButton setTitle:@"7" forState:UIControlStateNormal];
+        [self addSubview:self.sevenButton];
+        
+        
     }
     return self;
 }
@@ -46,3 +54,8 @@
 */
 
 @end
+
+
+
+
+
