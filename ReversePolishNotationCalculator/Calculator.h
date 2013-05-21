@@ -14,5 +14,6 @@
 
 - (void)pushNumberOnStack:(NSString *)number;
 - (NSString *)popNumberOffStack;
+- (BOOL)performOperation:(NSString *)operation;
 
 @end
