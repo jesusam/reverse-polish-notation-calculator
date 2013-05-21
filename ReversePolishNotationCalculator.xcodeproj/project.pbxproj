@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57F68812174B9DE2009DA06B /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08681D4174AB508009BCF58 /* GHUnitIOS.framework */; };
+		57F68823174B9F47009DA06B /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F68821174B9F31009DA06B /* libOCMock.a */; };
 		C0868176174AB3B9009BCF58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868175174AB3B9009BCF58 /* UIKit.framework */; };
 		C0868178174AB3B9009BCF58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868177174AB3B9009BCF58 /* Foundation.framework */; };
 		C086817A174AB3B9009BCF58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0868179174AB3B9009BCF58 /* CoreGraphics.framework */; };
@@ -26,13 +28,19 @@
 		C08681D0174AB4ED009BCF58 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C08681CF174AB4ED009BCF58 /* Default-568h@2x.png */; };
 		C08681D5174AB508009BCF58 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08681D4174AB508009BCF58 /* GHUnitIOS.framework */; };
 		C08681D7174AB5C8009BCF58 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08681D6174AB5C8009BCF58 /* QuartzCore.framework */; };
-		C08681D9174AB69E009BCF58 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C08681D8174AB69E009BCF58 /* libOCMock.a */; };
 		C08681DC174AB73A009BCF58 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C08681DB174AB73A009BCF58 /* Calculator.m */; };
 		C08681DD174AB73A009BCF58 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C08681DB174AB73A009BCF58 /* Calculator.m */; };
 		C08681E0174AB75D009BCF58 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C08681DF174AB75D009BCF58 /* CalculatorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57F6881A174B9F31009DA06B /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		57F6881B174B9F31009DA06B /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		57F6881C174B9F31009DA06B /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		57F6881D174B9F31009DA06B /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		57F6881E174B9F31009DA06B /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		57F6881F174B9F31009DA06B /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		57F68821174B9F31009DA06B /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		C0868171174AB3B9009BCF58 /* ReversePolishNotationCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReversePolishNotationCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0868175174AB3B9009BCF58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0868177174AB3B9009BCF58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,7 +64,6 @@
 		C08681CF174AB4ED009BCF58 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C08681D4174AB508009BCF58 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
 		C08681D6174AB5C8009BCF58 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		C08681D8174AB69E009BCF58 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = usr/lib/libOCMock.a; sourceTree = "<group>"; };
 		C08681DA174AB73A009BCF58 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		C08681DB174AB73A009BCF58 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		C08681DF174AB75D009BCF58 /* CalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
@@ -67,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F68823174B9F47009DA06B /* libOCMock.a in Frameworks */,
+				57F68812174B9DE2009DA06B /* GHUnitIOS.framework in Frameworks */,
 				C0868176174AB3B9009BCF58 /* UIKit.framework in Frameworks */,
 				C0868178174AB3B9009BCF58 /* Foundation.framework in Frameworks */,
 				C086817A174AB3B9009BCF58 /* CoreGraphics.framework in Frameworks */,
@@ -77,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08681D9174AB69E009BCF58 /* libOCMock.a in Frameworks */,
 				C08681D7174AB5C8009BCF58 /* QuartzCore.framework in Frameworks */,
 				C08681BC174AB4ED009BCF58 /* UIKit.framework in Frameworks */,
 				C08681BD174AB4ED009BCF58 /* Foundation.framework in Frameworks */,
@@ -89,13 +97,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57F68817174B9F31009DA06B /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				57F68818174B9F31009DA06B /* include */,
+				57F68820174B9F31009DA06B /* lib */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		57F68818174B9F31009DA06B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				57F68819174B9F31009DA06B /* OCMock */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		57F68819174B9F31009DA06B /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				57F6881A174B9F31009DA06B /* NSNotificationCenter+OCMAdditions.h */,
+				57F6881B174B9F31009DA06B /* OCMArg.h */,
+				57F6881C174B9F31009DA06B /* OCMConstraint.h */,
+				57F6881D174B9F31009DA06B /* OCMock.h */,
+				57F6881E174B9F31009DA06B /* OCMockObject.h */,
+				57F6881F174B9F31009DA06B /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		57F68820174B9F31009DA06B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				57F68821174B9F31009DA06B /* libOCMock.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		C0868166174AB3B9009BCF58 = {
 			isa = PBXGroup;
 			children = (
-				C08681D8174AB69E009BCF58 /* libOCMock.a */,
 				C086817B174AB3B9009BCF58 /* ReversePolishNotationCalculator */,
 				C08681BF174AB4ED009BCF58 /* ReversePolishNotationCalculatorTests */,
 				C0868174174AB3B9009BCF58 /* Frameworks */,
+				57F68817174B9F31009DA06B /* usr */,
 				C0868172174AB3B9009BCF58 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -355,9 +401,18 @@
 		C0868196174AB3BA009BCF58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Prefix.pch";
 				INFOPLIST_FILE = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/usr/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -366,9 +421,18 @@
 		C0868197174AB3BA009BCF58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Prefix.pch";
 				INFOPLIST_FILE = "ReversePolishNotationCalculator/ReversePolishNotationCalculator-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/usr/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +507,7 @@
 				C0868197174AB3BA009BCF58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C08681D1174AB4ED009BCF58 /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +516,7 @@
 				C08681D3174AB4ED009BCF58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
